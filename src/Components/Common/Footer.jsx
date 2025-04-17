@@ -2,7 +2,6 @@ import React from 'react'
 import { AiFillLinkedin, AiOutlineLinkedin, AiFillGithub, AiOutlineTwitter, AiOutlineGoogle, AiOutlineInstagram } from 'react-icons/ai'
 import { RiTwitterXLine } from 'react-icons/ri'
 import { Link } from 'react-router-dom'
-import KwikSkillGit from '../../assets/KwikSkill_GitHub2.png'
 import { SiOpenai } from 'react-icons/si'
 
 
