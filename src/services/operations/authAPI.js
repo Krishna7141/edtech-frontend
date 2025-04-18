@@ -13,7 +13,7 @@ export const sendOTP = (email, navigate) => {
                 email,
                 userExists: true,
             })
-            //console.log("SENDOTP Response: ", response)
+            console.log("SENDOTP Response: ", response)
             if(!response.data.success) {
                 throw new Error(response.data.message)
             }
