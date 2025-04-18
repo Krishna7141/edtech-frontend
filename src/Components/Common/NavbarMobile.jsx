@@ -71,7 +71,7 @@ const NavbarMobile = () => {
                 <div className='bg-white z-50 w-full h-full p-5 absolute flex flex-col right-0 gap-4 drop-shadow-lg'>
                     <Link className='p-3 rounded-lg shadow-lg border w-[100%] mx-auto font-medium' onClick={() => setIsNavOpen(false)} to={'/'}><div className='text-center'>Home</div></Link>
                     <Link className='p-3 rounded-lg shadow-lg border w-[100%] mx-auto font-medium' onClick={() => setIsNavOpen(false)} to={'/categories'}><div className='text-center'>Categories</div></Link>
-                    <Link className='p-3 rounded-lg shadow-lg border w-[100%] mx-auto font-medium' onClick={() => setIsNavOpen(false)} to={import.meta.env.VITE_MY_PORTFOLIO} target='_blank'><div className='text-center'>About Us</div></Link>
+                    <Link className='p-3 rounded-lg shadow-lg border w-[100%] mx-auto font-medium' onClick={() => setIsNavOpen(false)} to={"https://krishnavamsi-portfolio.vercel.app/"} target='_blank'><div className='text-center'>About Us</div></Link>
                     <Link className='p-3 rounded-lg shadow-lg border w-[100%] mx-auto font-medium' onClick={() => setIsNavOpen(false)} to={'/contact'}><div className='text-center'>Contact Us</div></Link>
                 </div>
             )
