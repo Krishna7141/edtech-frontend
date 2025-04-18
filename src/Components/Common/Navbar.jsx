@@ -37,7 +37,7 @@ const Navbar = () => {
             <div className='navbar-items flex flex-row gap-4 drop-shadow-lg'>
                 <NavLink to={'/'}><div>Home</div></NavLink>
                 <NavLink to={'/categories'}><div>Categories</div></NavLink>
-                <NavLink to={import.meta.env.VITE_MY_PORTFOLIO} target='_blank'><div>About</div></NavLink>
+                <NavLink to={"https://krishnavamsi-portfolio.vercel.app/"} target='_blank'><div>About</div></NavLink>
                 <NavLink to={'/contact'}><div>Contact</div></NavLink>
             </div>
             <div className='flex items-center gap-5'>
